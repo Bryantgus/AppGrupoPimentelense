@@ -1,4 +1,4 @@
-.sideBar{
+.sideBar {
     position: fixed;
     background-color: rgb(96, 201, 82);
     width: 15%;
@@ -7,7 +7,21 @@
     z-index: 1000;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 30px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.sideBarElements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    gap: 10px;
 }
